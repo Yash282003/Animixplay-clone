@@ -502,6 +502,7 @@ padding-top: 15px;
 margin-top: 20px;
 
 }
-/* .block2{
-
-} */
+.upper-section{
+display: flex;
+justify-content: space-between;
+}
