@@ -222,7 +222,7 @@
         <div class="right">
 
             <div class="block">
-                
+
                 <div class="login">
                     <div class="myinfo1">
                         <input type="text" placeholder="Username"><br>
@@ -248,17 +248,52 @@
                     <div class="left">
                         <h5>Section:</h5>
 
-                        <div class="box1">
+                        <div class="box1" id="boxe" onclick="hide()">
                             <span>Fall</span>
                             <i class="fa fa-caret-down"></i>
+                            <div class="box1-elements" id="boxe1">
+                                <ul>
+                                    <li>Winter</li>
+                                    <li>Spring</li>
+                                    <li>Summer</li>
+                                    <li>Fall</li>
+                                </ul>
+                            </div>
                         </div>
 
                     </div>
                     <div class="center">
                         <h5>Year:</h5>
-                        <div class="box2">
+                        <div class="box2" id="boxee" onclick="hide1()">
                             <span>2022</span>
                             <i class="fa fa-caret-down"></i>
+                            <div class="box2-elements" id="boxe2">
+
+                                <ul>
+                                    <li>2022</li>
+                                    <li>2022</li>
+                                    <li>2022</li>
+                                    <li>2022</li>
+                                    <li>2022</li>
+                                    <li>2022</li>
+                                    <li>2022</li>
+                                    <li>2022</li>
+                                    <li>2022</li>
+
+                                    <li>2022</li>
+                                    <li>2022</li>
+                                    <li>2022</li>
+                                    <li>2022</li>
+                                    <li>2022</li>
+                                    <li>2022</li>
+                                    <li>2022</li>
+                                    <li>2022</li>
+                                    <li>2022</li>
+                                    <li>2022</li>
+                                    <li>2022</li>
+                                </ul>
+
+                            </div>
                         </div>
 
 
@@ -442,6 +477,21 @@
         </div>
     </div>
     </div>
+    <script>
+        function hide() {
+            let boxe = document.getElementById('boxe');
+            let boxe1 = document.getElementById('boxe1');
+            if (boxe1.style.display != 'none') { boxe1.style.display = 'none' }
+            else { boxe1.style.display = 'block' }
+
+           
+        }
+        function hide1() {
+        let boxee = document.getElementById('boxee');
+            let boxe2 = document.getElementById('boxe2');
+            if (boxe2.style.display != 'none') { boxe2.style.display = 'none' }
+            else { boxe2.style.display = 'block' }}
+    </script>
 
 </body>
 

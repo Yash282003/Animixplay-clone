@@ -526,6 +526,7 @@ hr {
 
 .upper-section .left .box1 span {
     background-color: rgb(109, 108, 108);
+    cursor: default;
 }
 
 .upper-section .left .box1 i {
@@ -546,6 +547,7 @@ hr {
 
 .upper-section .left h5 {
     background-color: rgb(46, 44, 44);
+    cursor: default;
 }
 
 .upper-section .center .box2 {
@@ -556,6 +558,7 @@ hr {
 
 .upper-section .center h5 {
     background-color: rgb(46, 44, 44);
+    cursor: default;
 }
 
 .upper-section .center {
@@ -567,6 +570,7 @@ hr {
 
 .upper-section .center span {
     background-color: rgb(109, 108, 108);
+    cursor: default;
 }
 
 .upper-section .center .box2 i {
@@ -891,5 +895,51 @@ hr {
 
 .right-btn input:checked+label::before {
     left: 28px;
+
+}
+
+.box1-elements ul {
+    list-style: none;
+
+}
+
+.box1-elements ul li {
+    padding: 1px;
+
+}
+
+.box1-elements ul li:hover {
+    background-color: blue;
+    cursor: default;
+}
+
+.box1-elements {
+    border: 1px solid white;
+    z-index: 1;
+    position: absolute;
+    width: 120px;
+}
+
+.box2-elements ul {
+    list-style: none;
+
+}
+
+.box2-elements ul li {
+    padding: 1px;
+
+}
+
+.box2-elements ul li:hover {
+    background-color: blue;
+    cursor: default;
+}
+
+.box2-elements {
+    border: 1px solid white;
+    z-index: 1;
+    position: absolute;
+    width: 120px;
+
 
 }
