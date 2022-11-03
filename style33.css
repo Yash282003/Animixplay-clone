@@ -916,8 +916,8 @@ hr {
 .box1-elements {
     border: 1px solid white;
     z-index: 1;
-    position: absolute;
-    width: 120px;
+    position:relative;
+    
 }
 
 .box2-elements ul {
@@ -938,8 +938,8 @@ hr {
 .box2-elements {
     border: 1px solid white;
     z-index: 1;
-    position: absolute;
-    width: 120px;
+    position: relative;
+    
 
 
 }
