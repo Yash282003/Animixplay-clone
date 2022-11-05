@@ -18,26 +18,40 @@
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="nav-left">
-            <a href=""> <i class="bi bi-caret-left-fill" style="font-size: 30px;"></i></a>
-            <a href=""><i class="fa fa-home" style="font-size:30px"></i></a>
-            <a href="" id="main">ANIMIX PLAY</a>
-        </div>
-        <div class="nav-middle">
-            <div class="search-bar">
-                <input type="search" id="search" placeholder="Search">
-                <a href="#"><i class="fa fa-search icon-search" style="color: gray; "></i></a>
-
+    <div class="top">
+        <nav class="navbar">
+            <div class="nav-left">
+                <a href=""> <i class="bi bi-caret-left-fill" style="font-size: 30px;"></i></a>
+                <a href=""><i class="fa fa-home" style="font-size:30px"></i></a>
+                <a href="" id="main">ANIMIX PLAY</a>
             </div>
+            <div class="nav-middle">
+                <div class="search-bar" onclick="hide2()">
+                    <input type="search" id="search" placeholder="Search">
+                    <a href="#"><i class="fa fa-search icon-search" style="color: gray; "></i></a>
 
-            <div class="nav-right">
-                <a href=""> <i class="bi bi-shuffle" style="font-size: 20px;"></i>&nbsp;&nbsp;<span>Random</span></a>
-                &nbsp; <a href=""><span>A-Z list</span> </a>
+                </div>
 
+                <div class="nav-right">
+                    <a href=""> <i class="bi bi-shuffle"
+                            style="font-size: 20px;"></i>&nbsp;&nbsp;<span>Random</span></a>
+                    &nbsp; <a href=""><span>A-Z list</span> </a>
+
+                </div>
             </div>
+        </nav>
+
+        <div class="quicksearch" id="quick" onclick="hide2()">
+            <div class="quicksearchlinks">
+                <a href="">Full</a>
+                <a href="">GOGO</a>
+                <a href="">AL</a>
+                <a href="">RUSH</a>
+                <a href="">MAL</a>
+            </div>
+            <hr>
         </div>
-    </nav>
+    </div>
 
 
 
@@ -484,13 +498,20 @@
             if (boxe1.style.display != 'none') { boxe1.style.display = 'none' }
             else { boxe1.style.display = 'block' }
 
-           
+
         }
         function hide1() {
-        let boxee = document.getElementById('boxee');
+            let boxee = document.getElementById('boxee');
             let boxe2 = document.getElementById('boxe2');
             if (boxe2.style.display != 'none') { boxe2.style.display = 'none' }
-            else { boxe2.style.display = 'block' }}
+            else { boxe2.style.display = 'block' }
+        }
+        function hide2() {
+            let search = document.getElementById('search');
+            let quick = document.getElementById('quick');
+            if (quick.style.display != 'none') { quick.style.display = 'none' }
+            else { quick.style.display = 'block' }
+        }
     </script>
 
 </body>

@@ -916,8 +916,8 @@ hr {
 .box1-elements {
     border: 1px solid white;
     z-index: 1;
-    position:relative;
-    
+    position: relative;
+
 }
 
 .box2-elements ul {
@@ -939,7 +939,33 @@ hr {
     border: 1px solid white;
     z-index: 1;
     position: relative;
-    
+}
+
+.quicksearch {
+    width: 50%;
+    border: 2px solid gray;
+    margin-left: 20%;
+    height: 50px;
+    z-index: 1;
+    position: absolute;
+}
+
+.quicksearchlinks {
+    padding-top: 12px;
+    padding-left: 14px;
+}
+
+.quicksearchlinks a {
+    text-decoration: none;
+    padding: 5px;
+    background-color: rgb(70, 69, 69);
+    text-align: center;
+    color: skyblue;
+    border-radius: 5px;
 
 
+}
+
+.quicksearchlinks a:hover {
+    color: blue;
 }
